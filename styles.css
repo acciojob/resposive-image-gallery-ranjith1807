@@ -1,4 +1,5 @@
 .cards{
+	width:100%;
 	display:flex;
 	flex-wrap:wrap;
 	justify-content:space-evenly;
@@ -13,6 +14,6 @@
 }
 @media (max-width:25vw){
 	.cards img{
-		max-width:25vw;
+		max-width:50vw;
 	}
 }

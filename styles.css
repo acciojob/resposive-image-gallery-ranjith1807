@@ -1,5 +1,4 @@
 .cards{
-	width:100%;
 	display:flex;
 	flex-wrap:wrap;
 	justify-content:space-evenly;
@@ -7,7 +6,6 @@
 	gap:10px;
 }
 .cards img{
-	max-width:25vw;
 	height:auto;
 	margin:10px;
 	border:3px solid #000;
@@ -15,6 +13,6 @@
 }
 @media (max-width: 768px) {
   .cards img {
-    max-width: 50vw;
+    max-width: 25vw;
   }
 }
